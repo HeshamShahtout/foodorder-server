@@ -38,6 +38,7 @@ dependencies {
     implementation "com.firebaseui:firebase-ui-database:1.2.0"
     implementation 'com.google.firebase:firebase-storage:16.1.0'
     implementation 'com.google.firebase:firebase-auth:16.2.1'
+    implementation 'com.jaredrummler:material-spinner:1.3.1'
 
 
 }

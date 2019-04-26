@@ -8,4 +8,16 @@ public class Common {
     public static final String UPDATE = "Update";
     public static final String DELETE = "Delete";
     public static final int PICK_IMAGE_REQUEST = 71;
+
+    public static  String convertCodeToStatus(String code)
+    {
+        switch (code) {
+            case "0":
+                return "Placed";
+            case "1":
+                return "On my way";
+            default:
+                return "Shipped";
+        }
+    }
 }
